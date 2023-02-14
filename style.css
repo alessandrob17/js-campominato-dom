@@ -1,0 +1,27 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    font-size: 20px;
+  }
+  
+  .clicked {
+    background-color: blue;
+  }
+  
+  .bomb {
+    background-color: red;
+  }
+  
